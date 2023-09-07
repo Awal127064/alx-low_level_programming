@@ -1,4 +1,4 @@
-#inlude <stdio.h>
+#include <stdio.h>
 
 /**
  * main - A function that print using PUTS
