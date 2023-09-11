@@ -4,7 +4,7 @@
  *  Return: O when success
  */
 
-int main (void)
+int main(void)
 
 {
 	int dig_1 = 0;
