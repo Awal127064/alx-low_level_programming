@@ -1,4 +1,4 @@
-include <stdio.h>
+#include <stdio.h>
 
 /**
  * main - A single digit in base 10 using pitchar
@@ -11,8 +11,8 @@ int main(void)
 {
 	int num;
 
-	num = 9;
-	while (num <= 0)
+	num = '0';
+	while (num <= '9')
 	{
 		putchar(num);
 		num++;
