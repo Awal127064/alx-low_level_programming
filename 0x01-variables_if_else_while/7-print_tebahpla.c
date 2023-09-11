@@ -11,11 +11,11 @@ int main(void)
 	int alp;
 
 	alp = 'z';
-	while (alp >= 'a' )
+	while (alp >= 'a')
 	{
 		putchar(alp);
 		alp--;
 	}
 	putchar('\n');
-	return ('0');
+	return (0);
 }
