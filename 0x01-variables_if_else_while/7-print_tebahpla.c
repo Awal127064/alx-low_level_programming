@@ -2,7 +2,7 @@
 
 /**
  * main - A function to pitchar reverse alphabet
- * Return: o when right
+ * Return: 0 when right
  */
 
 int main(void)
@@ -11,11 +11,11 @@ int main(void)
 	int alp;
 
 	alp = 'z';
-	while (alp >= 'a')
+	while (alp >= 'a' )
 	{
 		putchar(alp);
 		alp--;
 	}
 	putchar('\n');
 	return ('0');
-}	
+}
