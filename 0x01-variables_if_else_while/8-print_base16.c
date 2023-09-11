@@ -7,17 +7,17 @@
 
 int main(void)
 {
-	char hex_digit = '0';
+	char hex_dig = '0';
 
-	while (hex_digit <= 'f')
+	while (hex_dig <= 'f')
 	{
 
-		if ((hex_digit >= '0' && hex_digit <= '9') || (hex_digit >= 'a' && hex_digit <= 'f'))
+		if ((hex_dig >= '0' && hex_dig <= '9') || (hex_dig >= 'a' && hex_dig <= 'f'))
 
 		{
-			putchar(hex_digit);
+			putchar(hex_dig);
 		}
-		hex_digit++;
+		hex_dig++;
 
 	}
 
