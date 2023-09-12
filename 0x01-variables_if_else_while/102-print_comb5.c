@@ -9,8 +9,6 @@ int main(void)
 {
 	int num1;
 	int num2;
-	int numCount;
-	numCount = 0;
 
 	for (num1 = 0; num1 <= 99; num1++)
 	{
@@ -25,12 +23,10 @@ int main(void)
 			putchar((num2 % 10) + '0');
 
 
-			numCount += 6;
 			if (!(num1 == 99 && num2 == 98))
 			{
 				putchar(',');
 				putchar(' ');
-				numCount += 2;
 			}
 		}
 	}
